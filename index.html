@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melca Eker — Mimarlık & Tasarım</title>
+    <meta name="description"
+        content="Melca Eker'in kişisel portföy ve tanıtım sitesi. Mimarlık öğrencisi, tasarım tutkunu." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">ME</div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link">Ana Sayfa</a></li>
+            <li><a href="#about" class="nav-link">Hakkımda</a></li>
+            <li><a href="#journey" class="nav-link">Yolculuk</a></li>
+            <li><a href="#skills" class="nav-link">Beceriler</a></li>
+            <li><a href="#contact" class="nav-link">İletişim</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow reveal">Mimarlık Öğrencisi</p>
+            <h1 class="hero-title reveal">
+                <span>Melca</span>
+                <em>Eker</em>
+            </h1>
+            <p class="hero-subtitle reveal">Mekânları Yeniden Hayal Ediyorum.</p>
+            <div class="hero-cta reveal">
+                <a href="#about" class="btn btn-primary">Keşfet</a>
+                <a href="#contact" class="btn btn-outline">İletişime Geç</a>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <div class="scroll-line"></div>
+            <span>Aşağı Kaydır</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual reveal">
+                    <div class="about-card">
+                        <div class="about-card-inner photo-card">
+                            <img src="melca.jpg" alt="Melca Eker" class="about-photo" />
+                        </div>
+                        <div class="about-badge">
+                            <span class="badge-icon">🏛️</span>
+                            <span>Mimarlık</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="section-label reveal">/ Hakkımda</div>
+                    <h2 class="section-title reveal">Merhaba, ben <br><em>Melca</em></h2>
+                    <p class="about-desc reveal">
+                        Mimarlık, benim için sadece yapı tasarlamak değil — insanların hayatlarına dokunan mekânlar
+                        yaratmak. Her çizgi, her form, her malzeme seçiminin arkasında bir hikâye var.
+                    </p>
+                    <p class="about-desc reveal">
+                        Tasarıma duyduğum tutku, beni sürekli yeni perspektifler aramaya ve öğrenmeye itiyor. Estetik
+                        ile işlevselliğin mükemmel dengesini bulmak benim için bir sanat.
+                    </p>
+                    <div class="about-stats reveal">
+                        <div class="stat">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Proje Fikri</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="12">0</span>
+                            <span class="stat-label">Tamamlanan Proje</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Yıl Eğitim</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="journey section" id="journey">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">/ Yolculuk</div>
+                <h2 class="section-title">Mimarlık <em>Maceram</em></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal" data-side="left">
+                    <div class="timeline-content">
+                        <span class="timeline-year">Başlangıç</span>
+                        <h3>İlk Çizgiler</h3>
+                        <p>Kalem ve kâğıtla başladım. Çevremdeki yapıları, mekânları gözlemlemek ve onları kendi
+                            gözlerimden yeniden çizmek benim için bir tutkunun başlangıcıydı.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item reveal" data-side="right">
+                    <div class="timeline-content">
+                        <span class="timeline-year">Üniversite</span>
+                        <h3>Mimarlık Eğitimi</h3>
+                        <p>Mimarlık bölümünde teoriden pratiğe uzanan yolculuğum başladı. Tasarım stüdyoları, malzeme
+                            deneyleri ve mimari tarih araştırmalarıyla dünyamı genişlettim.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item reveal" data-side="left">
+                    <div class="timeline-content">
+                        <span class="timeline-year">Stüdyo</span>
+                        <h3>Tasarım Projeleri</h3>
+                        <p>Her proje yeni bir problem, yeni bir çözüm. Kentsel tasarımdan iç mekâna, konut projelerinden
+                            kamusal alanlara kadar geniş bir yelpazede çalışmalar geliştirdim.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item reveal" data-side="right">
+                    <div class="timeline-content">
+                        <span class="timeline-year">Şimdi</span>
+                        <h3>Sınırları Zorluyorum</h3>
+                        <p>Dijital araçlar ve geleneksel tasarım anlayışını harmanlayarak, sürdürülebilir ve insan
+                            odaklı mekânlar tasarlamak için çalışıyorum.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">/ Beceriler</div>
+                <h2 class="section-title">Uzmanlık <em>Alanlarım</em></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">✏️</div>
+                    <h3>Konsept Tasarım</h3>
+                    <p>Fikirleri somut mekânsal deneyimlere dönüştürme. Eskizden son projeye kadar yaratıcı süreç
+                        yönetimi.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🖥️</div>
+                    <h3>Dijital Araçlar</h3>
+                    <p>AutoCAD, SketchUp, Revit ve görselleştirme yazılımlarıyla profesyonel çizim ve modelleme.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🏙️</div>
+                    <h3>Kentsel Tasarım</h3>
+                    <p>Şehrin dokusunu okumak, kentsel alanları insan ölçeğinde yeniden düşünmek ve yorumlamak.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🌿</div>
+                    <h3>Sürdürülebilir Tasarım</h3>
+                    <p>Çevreyle uyumlu, enerji verimli ve geleceğe duyarlı mimari çözümler üretmek.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🎨</div>
+                    <h3>İç Mekân Tasarımı</h3>
+                    <p>Malzeme, ışık ve form arasındaki dengeyi kurarak yaşanabilir ve estetik iç mekânlar yaratmak.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">📐</div>
+                    <h3>Teknik Çizim</h3>
+                    <p>Plan, kesit, görünüş ve detay çizimlerinde teknik hassasiyet ve mimari ifade gücü.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="quote reveal">
+                <span class="quote-mark">"</span>
+                Mimarlık donmuş müziktir.
+                <span class="quote-mark">"</span>
+                <cite>— Friedrich Schelling</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-text reveal">
+                    <div class="section-label">/ İletişim</div>
+                    <h2 class="section-title">Birlikte <em>Hayal</em> Edelim</h2>
+                    <p>Bir proje fikriniz mi var? Ya da sadece mimarlık ve tasarım üzerine konuşmak mı istiyorsunuz?
+                        Benimle iletişime geçin.</p>
+                    <div class="contact-links">
+                        <a href="mailto:melca@example.com" class="contact-link" id="emailLink">
+                            <span class="contact-link-icon">✉️</span>
+                            <span>melca@example.com</span>
+                        </a>
+                        <a href="#" class="contact-link" id="linkedinLink">
+                            <span class="contact-link-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="contact-link" id="instagramLink">
+                            <span class="contact-link-icon">📷</span>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrap reveal">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="nameInput" name="name" placeholder=" " required />
+                            <label for="nameInput">Adınız</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="emailInput" name="email" placeholder=" " required />
+                            <label for="emailInput">E-posta</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="messageInput" name="message" rows="4" placeholder=" " required></textarea>
+                            <label for="messageInput">Mesajınız</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            Gönder <span class="btn-arrow">→</span>
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            ✅ Mesajınız alındı, teşekkürler!
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span class="footer-name">Melca Eker</span>
+                <span class="footer-sep">·</span>
+                <span class="footer-role">Mimarlık Öğrencisi</span>
+                <span class="footer-sep">·</span>
+                <span class="footer-year">© 2025</span>
+            </div>
+            <p class="footer-tagline">Mekânları hayal etmek için doğdum.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
